@@ -1,0 +1,14 @@
+{
+  "name": "osc3",
+  "version": "1.0.0",
+  "description": "Oscillator",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server src"
+  },
+  "author": "Marius Van Nieuwenhuyse",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

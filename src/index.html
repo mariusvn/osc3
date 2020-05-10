@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Osc3</title>
+  <script src="./scripts/index.js" type="module"></script>
+</head>
+<body>
+  <button id="start">start</button>
+  <div class="Oscillator-1">
+    <label for="osc-1-volume">Volume</label>
+    <input type="range" id="osc-1-volume" name="volume" min="0" value="0.015" max="0.02" step="0.0001"/><br/>
+    <label for="osc-1-frequency">Frequency</label>
+    <input type="number" id="osc-1-frequency" max="40000" min="20" value="440"/>
+    <label for="osc-1-type">Type</label>
+    <select id="osc-1-type">
+      <option value="sine" selected>Sine</option>
+      <option value="square">Square</option>
+      <option value="sawtooth">Sawtooth</option>
+      <option value="triangle">Triangle</option>
+    </select>
+  </div>
+  <div class="Oscillator-2">
+    <label for="osc-2-volume">Volume</label>
+    <input type="range" id="osc-2-volume" name="volume" min="0" value="0.018" max="0.02" step="0.0001"/><br/>
+    <label for="osc-2-frequency">Frequency</label>
+    <input type="number" id="osc-2-frequency" max="40000" min="20" value="220"/>
+    <label for="osc-2-type">Type</label>
+    <select id="osc-2-type">
+      <option value="sine">Sine</option>
+      <option value="square">Square</option>
+      <option value="sawtooth">Sawtooth</option>
+      <option value="triangle" selected>Triangle</option>
+    </select>
+  </div>
+  <div class="Oscillator-3">
+    <label for="osc-3-volume">Volume</label>
+    <input type="range" id="osc-3-volume" name="volume" min="0" value="0.015" max="0.02" step="0.0001"/><br/>
+    <label for="osc-3-frequency">Frequency</label>
+    <input type="number" id="osc-3-frequency" max="40000" min="20" value="110"/>
+    <label for="osc-3-type">Type</label>
+    <select id="osc-3-type">
+      <option value="sine" selected>Sine</option>
+      <option value="square">Square</option>
+      <option value="sawtooth">Sawtooth</option>
+      <option value="triangle">Triangle</option>
+    </select>
+  </div>
+  <div class="Cutoff">
+    <label for="cutoff-frequency">Cutoff</label>
+    <input id="cutoff-frequency" type="range" name="cutoff-frequency" min="10" value="700" max="1000" step="10"/>
+  </div>
+</body>
+</html>
